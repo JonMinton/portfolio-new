@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -19,9 +19,12 @@ import Outputs from "./pages/Outputs";
 // import SectionPosition from "./components/SectionPosition";
 
 function App() {
-  const [title, setTitle] = useState("Jon Minton's Website");
+  const [title, setTitle] = useState();
 
-  
+  useEffect(() => {
+    setTitle("Jon Minton's Website");
+  }, []);
+    
   return (
     <div className="App">
       <Header title = {title} />
