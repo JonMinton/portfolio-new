@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 import background from '../img/pexels-pixabay-268533.jpg'
 
