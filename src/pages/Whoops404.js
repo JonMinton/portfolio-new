@@ -1,6 +1,5 @@
 
-const Whoops404 = ({fOff}) => {
-  fOff()
+const Whoops404 = () => {
 
   return (
     <main className="main">

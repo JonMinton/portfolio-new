@@ -11,6 +11,7 @@ const Nav = () => {
         <li><Link className="header__link" to='/'>Home</Link></li>
         <li><Link className="header__link" to='/history'>History</Link></li>
         <li><Link className="header__link" to='/outputs'>Outputs</Link></li>
+        <li><Link className="header__link" to='/apps'>Apps</Link></li>
         <li><Link className="header__link" to='/contact'>Contact</Link></li>
       </ul>
     </nav>
