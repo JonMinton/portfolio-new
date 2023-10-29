@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "place": "NHS Health Scotland",
+        "role": "Public Health Intelligence Adviser",
+        "years": [2019, 2023],
+        "activities": 
+            [
+                "Working in Public Health Observatory in NHS Health Scotland, focused on mortality trends analysis",
+                "NHS HS was vested into Public Health Scotland (PHS) on 1 April 2020",
+                "Secondment to supporting COVID guidance led by Scottish Government in 2020",
+                "Broader remit in Place & Wellbeing Directorate from 2021 onwards" 
+            ]
+    },
+    {
+        "id": 2,
+        "place": "Codeclan",
+        "role": "Student",
+        "years": [2023, 2023],
+        "activities": [
+            "Full-time, 16-week, immersive software development course",
+            "Learning to code in Python, JavaScript, HTML, CSS, SQL, and React",
+            "Learning to use Git, GitHub, and Agile methodologies"
+        ]
+        
+    },
+    {
+        "id": 3,
+        "place": "University of Glasgow",
+        "role": "Quantitative Research Associate/AQMEN Research Fellow",
+        "years": [2013, 2019],
+        "activities": [
+            "Open contract with five years funding to work on the Urban Segregation and Inequalities Research Project (USIRP) as part of phase II of the Advanced Quantitative Methods Network (AQMEN). (PI: Prof. Gwilym Pryce)", 
+            "Various student masters student supervision; and teaching/training in various courses, including in public health policy and methods, including introductory and advanced courses in data science and statistics using R"
+        ]
+    },
+    {
+        "id": 4,
+        "place": "University of Sheffield",
+        "role": "Research Associate",
+        "years": [2011, 2013],
+        "activities": [
+            "Health economics/operational research", 
+            "Member of National Institute for Health and Care Excellence (NICE) Decision Support Unit"
+        ]
+    },
+    {
+        "id": 5,
+        "place": "University of York",
+        "role": "Research Fellow in Evidence Synthesis",
+        "years": [2009, 2011],
+        "activities": [
+            "Fixed-term contract started end November 2009.",
+            "Systematic reviewer for health technology assessments for the NHS."
+        ]
+    },
+    {
+        "id": 6,
+        "place": "University of York",
+        "role": "Research Fellow",
+        "years": [2008, 2009],
+        "activities": [
+            "Fixed-term contract lasting December 2008 – August 2009.",
+            "Researcher on project commissioned by DWP and BIS (previously DIUS) investigating the measurement of housing and employment outcomes for offenders on probation.", 
+            "Qualitative, focus group-based research based on interviews with almost one hundred offenders, probation officers, jobcentre staff and other key stakeholders.",
+            "Interviewer on European Union commissioned survey on housing wealth attitudes."
+        ]
+    },
+    {
+        "id": 7,
+        "place": "York",
+        "role" : "Freelance Statistician / Quantitative Analyst",
+        "years": [2007, 2011],
+        "activities": [
+            "Occasional work advising on survey design and performing quantitative analyses for private sector organisations.",
+            "Strong emphasis throughout on presenting the results of quantitative analysis in ways that are clear, persuasive and visually engaging."
+        ]
+    },
+    {
+        "id": 7,
+        "place" : "University of York",
+        "role" : "PhD: Sociology & Human Geography",
+        "years" : [2005, 2009],
+        "activities" : [
+            "PhD thesis: ‘Pathways to Work? An analysis of the impact of the Pathways to Work programme on incapacity benefits claimants’ employment transitions.’",
+            "Supervisors: Prof. Roger Burrows (Sociology, York), Prof. Danny Dorling (Geography, Sheffield), Dr. Kate Pickett (Health Sciences, York).",
+            "Funded by White Rose Consortium 2005 ‘Sustainable Communities’ research network studentship."
+        ]
+    },
+    {
+        "id": 9,
+        "place" : "University of Nottingham",
+        "role" : "MA Cultural Studies & Critical Theory",
+        "years" : [2003, 2004],
+        "activities" : [
+            "Dissertation: ‘Richard Rorty and the New Left.’"
+        ]
+    },
+    {
+        "id": 10,
+        "place" : "University of Nottingham",
+        "role" : "BEng (Hons) Electronic Engineering (2.1)",
+        "years" : [1999, 2003],
+        "activities" : [
+            "Dissertation: ‘Machine Calibration through Digital Image Analysis.’"
+        ]
+    },
+    {
+        "id": 11,
+        "place" : "John Port Sixth Form, Etwall, Derbyshire",
+        "role" : "A levels: Mathematics (A), Physics (A), Business Studies (B), General Studies (B)",
+        "years" : [1997, 1999],
+        "activities" : []
+    }
+
+]
+

@@ -4,6 +4,7 @@ import background from '../img/pexels-pixabay-268533.jpg'
 
 
 const BigHero = (
+  { firstView }
     // { title, sideText, bgImage, images }
 ) => {
 
@@ -21,7 +22,7 @@ const BigHero = (
         <div className="bigHero__top bigHero__h2">
           Hi, I'm Jon.&nbsp;&nbsp; 
           <span 
-            className="textDelay_1s"
+            className={firstView ? "textDelay_1s" : ""}
           >
             I'm interested in...
           </span>
@@ -30,9 +31,15 @@ const BigHero = (
         <div className="bigHero__bottom-right">
           <nav className="bigHero__nav">
             <ul className="bigHero__ul bigHero__parent">
-              <li><a className="bigHero__link bigHero__child demography textDelay_2s" href="#demography-and-risk">Demography & Risk</a></li>
-              <li><a className="bigHero__link bigHero__child data-science textDelay_3s" href="#data-science">Data Science</a></li>
-              <li><a className="bigHero__link bigHero__child software textDelay_4s" href="#software-development">Software Development</a></li>
+              <li>
+                <a 
+                  className={"bigHero__link bigHero__child demography".concat(firstView ? " textDelay_2s" : "")} href="#demography-and-risk">Demography & Risk</a></li>
+              <li>
+                <a 
+                  className={"bigHero__link bigHero__child data-science".concat(firstView ? " textDelay_3s" : "")} href="#data-science">Data Science</a></li>
+              <li>
+                <a 
+                  className={"bigHero__link bigHero__child software".concat(firstView ? " textDelay_4s" : "")} href="#software-development">Software Development</a></li>
             </ul>
           </nav>
         </div>

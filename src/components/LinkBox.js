@@ -29,7 +29,11 @@ const LinkBox = ({ url, icon }) => {
 
   return (
     <>
-      <a href={url} >
+      <a 
+          href={url} 
+          rel="noreferrer"
+          target = "_blank"
+      >
         <FontAwesomeIcon icon={getIcon(icon)}  />
       </a>
     </>

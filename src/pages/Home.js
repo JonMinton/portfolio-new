@@ -3,10 +3,11 @@ import BigHero from "../components/BigHero"
 import { Link } from "react-router-dom"
 
 
-const Home = () => {
+const Home = ( { firstView }) => {
+
   return (
     <>
-        <BigHero />
+        <BigHero firstView={firstView} />
         <main className="main">
         <article className="main__article">
         <h2 className="main__h2">Welcome</h2>

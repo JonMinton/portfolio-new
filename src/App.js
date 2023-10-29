@@ -20,16 +20,26 @@ import Outputs from "./pages/Outputs";
 
 function App() {
   const [title, setTitle] = useState();
+  const [firstView, setFirstView] = useState(true);
 
   useEffect(() => {
     setTitle("Jon Minton's Website");
   }, []);
-    
+
+
+  useEffect(() => {
+    // set 5 second delay
+    setTimeout(() => {
+      setFirstView(false);
+    }, 5000);
+  }, [])
+
+
   return (
     <div className="App">
       <Header title = {title} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home firstView={firstView}/>} />
         <Route path="/history" element={<EmpEd />} />
         <Route path="/outputs" element={<Outputs />} />
         <Route path="/contact" element={<Contact />} />

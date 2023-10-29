@@ -30,7 +30,10 @@ textarea {
 :root {
   /* FONTS */
   --FF: 'Open Sans', sans-serif;
-  --FS: clamp(1.2rem, 2.0vh, 1.6rem);
+  --FS: clamp(1rem, 1.2vh, 1.6rem);
+
+  --FS-H1: calc(var(--FS) * 1.6);
+  --FS-H2: calc(var(--FS) * 1.4);
 
   /* SIZING */
 
@@ -40,6 +43,7 @@ textarea {
 
   --COLOR-HEADFOOT-BG: #000;
   --COLOR-HEADFOOT-TEXT: #FFF;
+  --COLOR-MAIN-H2-SHADOW: #666;
   --COLOR-MAIN-BG: #222;
   --COLOR-MAIN-TEXT: hsl(0, 0%, 90%);
   --COLOR-BG-TINT-LIGHT: rgba(255, 255, 255, 0.5);
@@ -47,9 +51,10 @@ textarea {
   --COLOR-BODY-BG-TOP: hsl(60, 15%, 25%);
   --COLOR-BODY-BG-BOTTOM: hsl(0, 15%, 27%);
   --COLOR-SECTION-HEADER-BG: rgb(28, 52, 71);
+  --COLOR-LINK-ACTIVE: #F00;
   --COLOR-LINK-SHADOW-TINT: #5288a1;
   --COLOR-BIGHERO-NAVBOX-BG:  rgba(128, 0, 128, 0.752);
-
+  --COLOR-NAVTOP-BORDER: rgb(178, 160, 167);
   /* BORDERS */
 
   --BORDER-TB: 1px solid #000;
@@ -62,6 +67,7 @@ textarea {
   /* MARGIN */
 
   --MARGIN-LR: 1rem;
+  --MARGIN-RIGHT: clamp(5px, 1vw, 1rem);
   --MARGIN-TB: 1em;
 
 }
@@ -201,6 +207,10 @@ p {
 }
 
 
+h2 {
+  font-size: var(--FS-H2);
+}
+
 /* || HEADER */
 
 .header {
@@ -249,6 +259,8 @@ p {
 }
 
 .header__h1 {
+  font-size: clamp(calc(var(--FS-H1) * 0.6), 4vh, calc(2 * var(--FS-H1)));
+
   padding-top: var(--PADDING);
   padding-bottom: var(--PADDING);
   text-align: center;
@@ -260,7 +272,7 @@ p {
 .header__nav {
   padding-top: 0;
   padding-bottom: var(--MARGIN-TB);
-  border-top: 1px solid pink;
+  border-top: 1px solid var(--COLOR-NAVTOP-BORDER);
 }
 
 .header__ul {
@@ -273,7 +285,7 @@ p {
 .header__link {
   text-decoration: none;
   color: var(--COLOR-HEADFOOT-TEXT);
-  font-size: var(--FS);
+  font-size: clamp(calc(var(--FS) * 0.6), 2vh, calc(2 * var(--FS)));
   font-family: var(--FF);
   font-weight: bold;
   text-transform: uppercase;
@@ -285,7 +297,7 @@ p {
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-  color: #F00;
+  color: var(--COLOR-LINK-ACTIVE);
 } 
 
 /* || MAIN */
@@ -306,7 +318,7 @@ p {
 
 .main__h2 {
   text-align: left;
-  text-shadow: 3px 3px 3px #666;
+  text-shadow: 3px 3px 3px var(--COLOR-MAIN-H2-SHADOW);
   background-color: var(--COLOR-SECTION-HEADER-BG);
   padding-top: calc(var(--PADDING) / 3);
   padding-bottom: calc(var(--PADDING) / 3);
@@ -392,7 +404,7 @@ p {
 }
 
 .bigHero__h2 {
-  font-size: 2rem;
+  font-size: clamp(calc(var(--FS-H2) * 0.6), 4vh, calc(2 * var(--FS-H2)));
   display: flex;
   color: var(--COLOR-HEADFOOT-TEXT);
   padding-left: var(--PADDING);
@@ -434,7 +446,7 @@ p {
   padding-top: 0.5em;
   padding-left: 0.5em;
   color: var(--COLOR-HEADFOOT-TEXT);
-  font-size: calc(var(--FS) * 1.2);
+  font-size: clamp(calc(var(--FS) * 0.6), 2vh, calc(2 * var(--FS)));
 }
 
 .bigHero__nav ul {
@@ -502,7 +514,7 @@ p {
   font-size: var(--FS);
   margin-bottom: 0.5em;
   margin-left: var(--MARGIN-LR);
-  margin-right: var(--MARGIN-LR)
+  margin-right: var(--MARGIN-RIGHT)
 }
 
 /* || LinkBox */
@@ -533,4 +545,14 @@ p {
 
 .label {
   margin-left: 5px;
+}
+
+/* || HISTORY */
+
+.history__li {
+  list-style: none;
+  margin-bottom: 0.5em;
+  margin-left: var(--MARGIN-LR);
+  margin-right: var(--MARGIN-RIGHT);
+  font-size: var(--FS);
 }
