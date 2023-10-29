@@ -360,7 +360,7 @@ h2 {
 }
 
 .footer__p {
-  font-size: calc(var(--FS) * 0.8);
+  font-size: clamp(calc(var(--FS) * 0.6), 1.4vh, calc(1 * var(--FS)));
   font-family: var(--FF);
   font-weight: bold;
   text-transform: uppercase;
