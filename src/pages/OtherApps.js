@@ -5,6 +5,7 @@ import AppProfile from '../components/AppProfile'
 import NewWebsiteImage from '../img/newWebsiteSquare.png'
 import OldWebsiteImage from '../img/oldWebsiteSquare.png'
 import PythonHMDImage from '../img/pythonDashAppSquare.png'
+import RHMDImage from '../img/rShinyAppMortalitySquare.png'
 
 const OtherApps = () => {
 
@@ -39,6 +40,13 @@ const OtherApps = () => {
                         This was my Codeclan capstone project. I wanted to see if I could do in Python, one of the languages taught in the course, something I'd previously done in R. This was to produce a dashboard that allows mortality and population data, from the Human Mortality Database, to be visualised as Lexis surfces, 3D representations of the data, in which the age and period work like latitude and longitude and population size or mortality risk is represented as elevation. As before, I wanted these 3D maps to be interactive, such that clicking on part of the surface started a 'grand tour', showing the age, period and cohort slices through the same data. However, unlike the R Shiny app, I wanted to give slightly more consideration to design and style. (Though not a great deal). Whereas the first app was build in Shiny, this used the Dash framework (both ultimately route to Plotly, written in Javascript). I made somewhat more use of Bootstrap for styling the CSS, though wish I knew then what I knew now about good design practice. The app still hasn't been deployed, and some of the features from the Shiny app haven't been introduced to the Python version. However I hope to return to this project once I've learned and achieved enough with the Javascript econosystem/'Reactiverse' to feel that knowledge has become sufficiently embedded.
                     `}
                     image = {PythonHMDImage}
+                />
+                <AppProfile
+                    title = "R-Shiny Mortality Structure Explorer"
+                    mainText = {`
+                        This is the app I made in R which I attempted to replicate using Python and Dash. It has more functionality, but the code's a mess I wrote in a two week fugue state before my current job, and the design is a lot more bare-bones. In less than two weeks I was able to demonstrate proof of principle for an approach to visualising complex demographic data which I'd spent the last few years in academic trying to get funding for, and so I was fairly happy with this. In fact in slightly over two weeks I produced two more apps using the same approach, one applied to fertility, and the other to housing data. Unfortunately this particular coding journey was halted by jury service, then the new job, and the code was written in such a disorganisational manner I wasn't able to get back to the headspace needed to further develop it. 
+                    `}
+                    image = {RHMDImage}
                 />
 
             </main>
