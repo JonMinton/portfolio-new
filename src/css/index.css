@@ -55,6 +55,7 @@ textarea {
   --COLOR-LINK-SHADOW-TINT: #5288a1;
   --COLOR-BIGHERO-NAVBOX-BG:  rgba(128, 0, 128, 0.752);
   --COLOR-NAVTOP-BORDER: rgb(178, 160, 167);
+  --COLOR-APP-HEADER: hsl(199, 50%, 65%);
   /* BORDERS */
 
   --BORDER-TB: 1px solid #000;
@@ -555,4 +556,50 @@ h2 {
   margin-left: var(--MARGIN-LR);
   margin-right: var(--MARGIN-RIGHT);
   font-size: var(--FS);
+}
+
+/* || AppProfile */
+
+.appProfile {
+  display: grid; 
+  /* background-color: aqua; */
+  height: 30%;
+  width: 100%;
+  border: 2px solid var(--COLOR-NAVTOP-BORDER);
+  border-radius: 5px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: 
+    "tp tp"
+    "bl br";
+  gap: 0.5em;
+  margin-bottom: 1.5rem;
+}
+
+.appProfile__h3 {
+  grid-area: tp;
+  font-size: var(--FS-H2);
+  text-align: center;
+  justify-content: center;
+  padding-top: var(--PADDING);
+  margin-bottom: 0;
+  width: 100%;
+  color: var(--COLOR-APP-HEADER)
+}
+
+.appProfile__img {
+  grid-area: bl;
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+}
+
+.appProfile__p {
+  grid-area: br;
+  font-size: var(--FS);
+  padding: var(--PADDING);
+  text-align: justify;
+  height: 100%;
+  background-color: var(--COLOR-SECTION-HEADER-BG);
+  color: var(--COLOR-MAIN-TEXT);
 }
