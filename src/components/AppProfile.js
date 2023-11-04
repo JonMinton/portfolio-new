@@ -1,5 +1,8 @@
 import React from 'react'
 
+// get media query
+import { useMediaQuery } from 'react-responsive'
+
 const AppProfile = (
     {
         title, 
@@ -7,10 +10,22 @@ const AppProfile = (
         image
     }
 ) => {
-  return (
-    <article className="appProfile">
 
-        <h3 className="appProfile__h3">
+    const isMobile = useMediaQuery({ query: '(max-width: 700px)' })
+
+  return (
+    <article 
+        className = {
+            isMobile ? 
+            "appProfile__mobile" : 
+            "appProfile"
+        }
+    >
+    <p> {isMobile} </p>
+        <h3 
+            className="appProfile__h3"
+            style={isMobile ? {paddingBottom: "0.5rem"} : null}    
+        >
             {title}
         </h3>
         <p className="appProfile__p">

@@ -576,6 +576,24 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.appProfile__mobile {
+  display: grid; 
+  /* background-color: aqua; */
+  min-height: 30%;
+  width: 100%;
+  border: 2px solid var(--COLOR-NAVTOP-BORDER);
+  border-radius: 2px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+    "tp"
+    "bl"
+    "br"
+    ;
+  gap: 0.5em;
+  margin-bottom: 1.5rem;
+}
+
 .appProfile__h3 {
   grid-area: tp;
   font-size: var(--FS-H2);
@@ -587,12 +605,21 @@ h2 {
   color: var(--COLOR-APP-HEADER)
 }
 
-.appProfile__img {
+.appProfile__figure {
   grid-area: bl;
   border-radius: 5%;
   width: 100%;
   height: auto;
 }
+
+.appProfile__img {
+  padding: 0 0.5em;
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+}
+
+
 
 .appProfile__p {
   grid-area: br;
@@ -606,7 +633,7 @@ h2 {
 
 
 
-/* || banner */
+/* || BANNER */
 
 
 .banner {
