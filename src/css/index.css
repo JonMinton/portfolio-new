@@ -603,3 +603,40 @@ h2 {
   background-color: var(--COLOR-SECTION-HEADER-BG);
   color: var(--COLOR-MAIN-TEXT);
 }
+
+
+
+/* || banner */
+
+
+.banner {
+  text-align: left;
+  background-color: var(--COLOR-SECTION-HEADER-BG);
+  padding-top: calc(var(--PADDING) / 3);
+  padding-bottom: calc(var(--PADDING) / 3);
+  padding-left: 0.25em;
+  margin-bottom: calc(var(--MARGIN-TB) / 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__h2 {
+  text-shadow: 3px 3px 3px var(--COLOR-MAIN-H2-SHADOW);
+}
+
+.banner__linkbox {
+  display: flex;
+  gap: 0.5em;
+  padding-right: 0.5em;
+
+}
+
+.banner__link {
+  color: var(--COLOR-MAIN-TEXT);
+}
+
+.banner__link_dull {
+  color: rgba(255, 255, 255, 0);
+}
+

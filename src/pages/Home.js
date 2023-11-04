@@ -1,15 +1,24 @@
+import { Link } from "react-router-dom";
 
-import BigHero from "../components/BigHero"
-import { Link } from "react-router-dom"
+import HeadingLinkback from "../components/HeadingLinkback";
+import BigHero from "../components/BigHero";
+
 
 
 const Home = ( { firstView }) => {
 
   return (
     <>
-        <BigHero firstView={firstView} />
-        <main className="main">
-        <article className="main__article">
+        <BigHero 
+          firstView={firstView} 
+        />
+        <main 
+          className="main"       
+        >
+        <article 
+          className="main__article"
+          id="home-root"
+        >
         <h2 className="main__h2">Welcome</h2>
         <p className="main__p">
           Hello, I'm Jon Minton. I am a highly experienced <span className="data-science">data scientist</span>; a well-published and highly collaborative researcher specialising in <span className="demography">epidemiology, risk and demographic structure</span>; and more recently a quick-learning full-stack <span className="software">software developer</span>.
@@ -20,11 +29,11 @@ const Home = ( { firstView }) => {
 
         </article>
         <article className="main__article" id="demography-and-risk">
-          <h2 
-            className="main__h2" 
-          >
-            Demography and Risk
-          </h2>
+        <HeadingLinkback
+          title="Demography and Risk"
+          linkForward="#data-science"
+          linkRoot="#home-root"
+        />
           <p className="main__p" >
             While completing a PhD in social policy, focused on working age economic inactivity, I became interested in broader questions of population structure. I was interested in the ways that the risk of becoming economically inactive changed by age, but also over time. I was also interested in how official retirement ages accidentally became 'generous', an increasing share of people's lifespan, due to long-term trends in increased life expectancy. 
           </p>
@@ -39,7 +48,11 @@ const Home = ( { firstView }) => {
           </p>
         </article>
         <article className="main__article" id="data-science">
-          <h2 className="main__h2">Data Science</h2>
+        <HeadingLinkback 
+          title="Data Science" linkBackward="#demography-and-risk"
+          linkForward="#software-development"
+          linkRoot="#home-root" 
+        />
           <p className="main__p">I've worked with the statistical programming language R for around twenty years. (Originally I wanted to learn R because I did my PhD in a sociology department, and realised economists don't think much of sociologists' technical prowess. So, after hearing about R from some mathematical ecologists, I decided to learn R because it was too technical for most of the economists!) </p>
         <p className="main__p">
           Despite starting with R when it was a proudly unfriendly environment, with a terse and prickly dev community, I've embraced the Tidyverse, which makes R a much more approachable language than it used to be. I run a weekly TidyTuesday event for my company (called TardyTuesday as it's on Wednesdays!) and find it great to see beginners and experienced users alike tackle each weekly challenge.
@@ -49,9 +62,11 @@ const Home = ( { firstView }) => {
         </p>
         </article>
         <article className="main__article" id='software-development'>
-          <h2 className="main__h2">
-            Software Development
-          </h2>
+        <HeadingLinkback 
+          title="Software Development" linkBackward="#data-science"
+          linkRoot="#home-root" 
+        />
+
           <p className="main__p">
             I took a career break from PHS between March and June 2023 to complete CodeClan's full-time, 16 week Professional Software Development course. This intensive course provides a comprehensive and working introduction to full-stack software development, covering database principles and practice with both SQL (with Postgres and Spring) and No-SQL (MongoDB); HTML and CSS, Python and Flask, Java, and JavaScript and React.
           </p>
@@ -66,11 +81,6 @@ const Home = ( { firstView }) => {
           </p>
 
         </article>
-
-
-
-
-
     </main>
     </>
   )
