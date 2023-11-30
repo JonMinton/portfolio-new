@@ -8,19 +8,21 @@ const Header = ( { title } ) => {
           <h1 className="header__h1">{title}</h1>
           <div className="header__contacts">
             <div className="header__contacts_contact">
-                <LinkBox url='https://uk.linkedin.com/in/jon-minton-09480b13a' icon='linkedin' label='LinkedIn'/>
+              <LinkBox url='https://jonminton.github.io/jon-blog/' icon='blog' label='Blog'/>
             </div>
             <div className="header__contacts_contact">
-            <LinkBox url = 'https://twitter.com/JonMinton' icon = 'twitter' label = 'Twitter/X'/>
+              <LinkBox url='https://uk.linkedin.com/in/jon-minton-09480b13a' icon='linkedin' label='LinkedIn'/>
             </div>
             <div className="header__contacts_contact">
-            <LinkBox url = 'https://github.com/JonMinton' icon = 'github' label = 'GitHub'/>
+              <LinkBox url = 'https://twitter.com/JonMinton' icon = 'twitter' label = 'Twitter/X'/>
             </div>
             <div className="header__contacts_contact">
-            <LinkBox url = 'https://wa.me/447866022543' icon = 'whatsapp' label = 'WhatsApp'/>
+              <LinkBox url = 'https://github.com/JonMinton' icon = 'github' label = 'GitHub'/>
+            </div>
+            <div className="header__contacts_contact">
+              <LinkBox url = 'https://wa.me/447866022543' icon = 'whatsapp' label = 'WhatsApp'/>
             </div>
           </div>
-
         </div>
         <Nav />
     </header>

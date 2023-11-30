@@ -26,7 +26,12 @@ const Home = ( { firstView }) => {
         <p className="main__p">
           If this combination of skills and background sounds of interest, please explore this website further and <Link className="main__link" to='/contact'>get in touch</Link>.
         </p>
-
+        </article>
+        <article className="main__article">
+          <h2 className="main__h2">My Blog</h2>
+          <p className="main__p">
+            Please consider visiting <a className="main__link" href="https://jonminton.github.io/jon-blog/">my blog</a>, produced using Quarto, and hosted on Github pages, as I update it more often than this site!
+          </p>
         </article>
         <article className="main__article" id="demography-and-risk">
         <HeadingLinkback

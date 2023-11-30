@@ -6,6 +6,7 @@ import NewWebsiteImage from '../img/newWebsiteSquare.png'
 import OldWebsiteImage from '../img/oldWebsiteSquare.png'
 import PythonHMDImage from '../img/pythonDashAppSquare.png'
 import RHMDImage from '../img/rShinyAppMortalitySquare.png'
+import BlogImage from '../img/jonBlog.png'
 
 const OtherApps = () => {
 
@@ -21,6 +22,13 @@ const OtherApps = () => {
                         Here's a short list of apps I've completed or am working on.
                     </p>
                 </article>
+                <AppProfile
+                    title = "Jon Minton's Blog"
+                    mainText = {`
+                        This is my blog, produced using Quarto, and hosted on Github pages. I update it more often than this site, and it's a good place to find out what I'm currently working on.
+                    `}
+                    image = {BlogImage}
+                />
                 <AppProfile
                     title = "Jon Minton's Website"
                     mainText = {`

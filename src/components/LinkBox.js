@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBook} from '@fortawesome/free-solid-svg-icons';
+import {faBook, faBlog} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedinIn, faGithub, faTwitter, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 // import './LinkBox.css';
@@ -22,6 +22,8 @@ const LinkBox = ({ url, icon }) => {
         return faWhatsapp;
       case 'book':
         return faBook;
+      case 'blog':
+        return faBlog;
       default:
         return null;
     }
