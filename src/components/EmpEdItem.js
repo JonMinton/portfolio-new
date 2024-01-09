@@ -13,7 +13,8 @@ const EmpEdItem = (
         <strong>
             {years[0]} 
             &nbsp;to&nbsp; 
-            {years[1]}</strong>: {role} at {place}.
+            {years[1]}
+          </strong>: {role} at {place}.
     </li>
   )
 }

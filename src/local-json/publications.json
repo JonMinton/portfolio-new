@@ -1,0 +1,153 @@
+[
+    {
+        "id": 20,
+        "authors" : "Hiam, Estrin-Serlui, McKee, Dorling, Minton",
+        "title" : "A deathly silence: why has the number of people found decomposed in England and Wales been rising?",
+        "year" : 2023,
+        "journal" : "Journal of the Royal Society of Medicine",
+        "url" : "https://pubmed.ncbi.nlm.nih.gov/37989250/"
+    },
+    {
+        "id": 17,
+        "authors" : "Minton, Hiam, McKee, Dorling",
+        "title" : "Slowing down or returning to normal? Life expectancy improvements in Britain compared to five large European countries before the COVID-19 pandemic.",
+        "year" : 2023,
+        "journal" : "BMJ",
+        "url" : "https://academic.oup.com/bmb/article/145/1/6/6960689"
+    },
+    {
+        "id": 18,
+        "authors": "Jones, Minton, Bell",
+        "title" : "Methods for Methods for disentangling period and cohort changes in mortality risk over the twentieth century: comparing graphic and modelling approaches",
+        "year" : 2023,
+        "journal" : "Quality and Quantity",
+        "url" : "https://link.springer.com/article/10.1007/s11135-022-01498-3"
+    },
+    {
+        "id" : 19, 
+        "authors" : "Hiam, Minton, McKee",
+        "title" : "What can lifespan variation reveal that life expectancy hides? Comparison of five high-income countries",
+        "year" : 2021,
+        "journal": "Royal Society of Medicine",
+        "url" : "https://journals.sagepub.com/doi/10.1177/01410768211011741"
+    },
+    {
+        "id": 1,
+        "authors": "Pattaro, Vanderbloemen, Minton",
+        "year": 2020,
+        "journal": "Demographic Research",
+        "title": "Visualising fertility trends for 45 countries using composition lattice plots",
+        "url": "https://www.demographic-research.org/volumes/vol42/23/default.htm"
+    },
+    {
+        "id": 2,
+        "authors": "Parkinson, Minton, et al",
+        "year": 2018,
+        "journal": "BMC Public Health",
+        "title": "Drug-related deaths in Scotland 1979-2013: evidence of a vulnerable cohort of young men living in deprived areas",
+        "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-018-5267-2"
+    },
+    {
+        "id": 3,
+        "authors": "Matthews, Minton",
+        "year": 2017,
+        "journal": "European Journal of Criminology",
+        "title": "Rethinking one of criminology’s ‘brute facts’: the age-crime curve and the crime drop in Scotland"
+    },
+    {
+        "id": 4,
+        "authors": "Yao, J. et al.",
+        "year": 2017,
+        "journal": "Tijdschrift voor Economische en Sociale Geografie",
+        "title": "Spatial segregation measures: a methodological review"
+    },
+    {
+        "id": 5,
+        "authors": "Green, M.A. et al.",
+        "year": 2017,
+        "title": "Could the rise in mortality rates since 2015 be explained by changes in the number of delayed discharges of NHS patients. [In press]"
+    },
+    {
+        "id": 6,
+        "authors": "Bailey, Minton",
+        "journal": "Urban Geography",
+        "title": "The suburbanisation of poverty in British cities, 2004 to 2015/16: extent, processes and nature",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/02723638.2017.1405689?cookieSet=1"
+    },
+    {
+        "id": 7,
+        "authors": "Minton",
+        "year": 2017,
+        "title": "Escaping Flatland in population analysis using Lexis surfaces and as-if-spatial reasoning. A research workflow using data on cause-specific mortality amongst males living in deprived areas of Scotland",
+        "url": "https://osf.io/w274r/"
+    },
+    {
+        "id": 8,
+        "authors": "Minton",
+        "year": 2017,
+        "title": "The shape of the Troubles: Visualising and quantifying conflict-attributable excess deaths after 1972 in young adult males in Northern Ireland",
+        "url": "https://osf.io/enwtu/"
+    },
+    {
+        "id": 9,
+        "authors": "Green , Dorling & Minton",
+        "year": 2017,
+        "journal": "Health & place",
+        "title": "The Geography of a rapid rise in elderly mortality in England and Wales, 2014-15",
+        "pages": "44, pp.77–85"
+    },
+    {
+        "id": 10,
+        "authors": "Parkinson et al.",
+        "year": 2017,
+        "journal": "Journal of Epidemiology and Community Health",
+        "title": "Recent cohort effects in suicide in Scotland: a legacy of the 1980s?",
+        "volume": 71,
+        "issue": 2,
+        "pages": "pp.194–200",
+        "url": "http://jech.bmj.com/lookup/doi/10.1136/jech-2016-207296"
+    },
+    {
+        "id": 11,
+        "authors": "Minton et al.",
+        "year": 2017,
+        "journal": "Journal of Epidemiology and Community Health",
+        "title": "Visualising and quantifying “excess deaths” in Scotland compared with the rest of the UK and the rest of Western Europe",
+        "volume": 71,
+        "issue": 5,
+        "pages": "pp.461–467",
+        "url": "http://jech.bmj.com/lookup/doi/10.1136/jech-2016-207379"
+    },
+    {
+        "id": 12,
+        "authors": "Minton et al.",
+        "year": 2016,
+        "journal": "International Journal of Epidemiology",
+        "title": "Two cheers for a small giant? Why we need better ways of seeing data"
+    },
+    {
+        "id": 14,
+        "authors": "Vanderbloemen, Dorling,  Minton",
+        "year": 2016,
+        "journal": "Journal of Epidemiology & Community Health",
+        "title": "Visualising variation in mortality rates across the life course and by sex, USA and comparator states, 1933–2010",
+        "url": "http://jech.bmj.com/content/early/2016/03/01/jech-2014-205226.abstract"
+    },
+    {
+        "id": 15,
+        "authors": "McCartney et al.",
+        "year": 2016,
+        "journal": "Public Health",
+        "title": "Explaining trends in alcohol-related harms in Scotland, 1991–2011 (I): the role of incomes, effects of socio-economic and political adversity and demographic change",
+        "volume": 132,
+        "pages": "pp.13–23",
+        "url": "http://linkinghub.elsevier.com/retrieve/pii/S0033350615005314"
+    },
+    {
+        "id": 16,
+        "authors": "McCartney et al.",
+        "year": 2016,
+        "journal": "Public Health",
+        "title": "Explaining trends in alcohol-related harms in Scotland 1991–2011 (II): policy"
+    }      
+]
