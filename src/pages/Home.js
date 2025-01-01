@@ -21,16 +21,32 @@ const Home = ( { firstView }) => {
         >
         <h2 className="main__h2">Welcome</h2>
         <p className="main__p">
-          Hello, I'm Jon Minton. I am a highly experienced <span className="data-science">data scientist</span>; a well-published and highly collaborative researcher specialising in <span className="demography">epidemiology, risk and demographic structure</span>; and more recently a quick-learning full-stack <span className="software">software developer</span>.
+          Hello, I'm Jon Minton. I am a senior statistician at the medical devices firm Smith & Nephew. More broadly, I am a highly experienced <span className="data-science">data scientist</span>; a well-published and highly collaborative researcher specialising in <span className="demography">epidemiology, risk and demographic structure</span>; and more recently a quick-learning full-stack <span className="software">software developer</span>.
         </p>
         <p className="main__p">
           If this combination of skills and background sounds of interest, please explore this website further and <Link className="main__link" to='/contact'>get in touch</Link>.
         </p>
         </article>
         <article className="main__article">
-          <h2 className="main__h2">My Blog</h2>
+          <h2 className="main__h2">My Blog and Statistics Website</h2>
           <p className="main__p">
             Please consider visiting <a className="main__link" href="https://jonminton.github.io/jon-blog/">my blog</a>, produced using Quarto, and hosted on Github pages, as I update it more often than this site!
+          </p>
+          <p className="main__p">
+            If you are primarily interested in my statistical work, please visit <a className="main__link" href="https://jonminton.github.io/JonStats/">my statistics website</a>, which is also produced using Quarto and hosted on Github pages.
+          </p>
+        </article>
+        <article className="main__article" id="statistics">
+        <HeadingLinkback
+          title="Statistics"
+          linkForward="#demography-and-risk"
+          linkRoot="#home-root"
+        />
+          <p className="main__p" >
+            I am highly knowledgeable in statistical methods and practice, and currently work as a senior statistian at Smith & Nephew. This is my first role both in the private sector, and working primarily with clinical trial data.  
+          </p>
+          <p className="main__p">
+            Prior to working with clinical trial data, I worked for many years in epidemiology and public health, where the majority of data used are observational. I have a deep enough understanding of the challenges of causal inference to know the fundamental challenges of trying to make valid inferences with observational data, and so the privilege of working with data derived from randomised controlled trials. 
           </p>
         </article>
         <article className="main__article" id="demography-and-risk">
@@ -38,6 +54,7 @@ const Home = ( { firstView }) => {
           title="Demography and Risk"
           linkForward="#data-science"
           linkRoot="#home-root"
+          linkBackward="#statistics"
         />
           <p className="main__p" >
             While completing a PhD in social policy, focused on working age economic inactivity, I became interested in broader questions of population structure. I was interested in the ways that the risk of becoming economically inactive changed by age, but also over time. I was also interested in how official retirement ages accidentally became 'generous', an increasing share of people's lifespan, due to long-term trends in increased life expectancy. 

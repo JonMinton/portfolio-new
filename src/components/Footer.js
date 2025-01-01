@@ -11,7 +11,7 @@ const Footer = () => {
         <ul className = "footer__ul">
           <li className = "footer__li">
             <p className="footer__p">
-              &copy; Jon Minton 2023
+              &copy; Jon Minton 2025
             </p>
           </li>
           {isMobile ? null :

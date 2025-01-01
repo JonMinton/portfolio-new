@@ -1,14 +1,12 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBook, faBlog} from '@fortawesome/free-solid-svg-icons';
+import {faBook, faBlog, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedinIn, faGithub, faTwitter, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 // import './LinkBox.css';
 
 
 const LinkBox = ({ url, icon }) => {
-
-
 
   const getIcon = (icon) => {
     switch (icon) {
@@ -24,6 +22,8 @@ const LinkBox = ({ url, icon }) => {
         return faBook;
       case 'blog':
         return faBlog;
+      case 'statsSite':
+        return faGlobe;
       default:
         return null;
     }

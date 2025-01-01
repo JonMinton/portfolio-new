@@ -550,9 +550,18 @@ h2 {
 
 /* || HISTORY */
 
+.history__subhead {
+  font-size: var(--FS-H2);
+  text-align: left;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  width: 100%;
+  color: var(--COLOR-APP-HEADER)
+}
+
 .history__li {
   list-style: none;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   margin-left: var(--MARGIN-LR);
   margin-right: var(--MARGIN-RIGHT);
   font-size: var(--FS);

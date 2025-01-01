@@ -1,6 +1,22 @@
 [
     {
         "id": 1,
+        "place": "Smith & Nephew",
+        "role": "Senior Statistician",
+        "years": [2024, 2025],
+        "activities": 
+            [
+                "Working as Senior Statistician in the Global Data Analytics division",
+                "Advising on the the design of clinical trials on medical devices",
+                "Analysing clinical trial data outputs",
+                "Collaboratively preparing submissions for regulatory bodies across the world",
+                "Promoting the use of Data Science and Software Development best practice in the production of statistical analytical outputs for both internal and external audiences, including Reproducible Analytical Pipelines, Quarto document rendering, and code repositories using Azure DevOps and git"
+
+            ]
+    },
+
+    {
+        "id": 2,
         "place": "NHS Health Scotland",
         "role": "Public Health Intelligence Adviser",
         "years": [2019, 2024],
@@ -13,7 +29,7 @@
             ]
     },
     {
-        "id": 2,
+        "id": 3,
         "place": "Codeclan",
         "role": "Student",
         "years": [2023, 2023],
@@ -25,7 +41,7 @@
         
     },
     {
-        "id": 3,
+        "id": 4,
         "place": "University of Glasgow",
         "role": "Quantitative Research Associate/AQMEN Research Fellow",
         "years": [2013, 2019],
@@ -35,7 +51,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "place": "University of Sheffield",
         "role": "Research Associate",
         "years": [2011, 2013],
@@ -45,7 +61,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "place": "University of York",
         "role": "Research Fellow in Evidence Synthesis",
         "years": [2009, 2011],
@@ -55,7 +71,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "place": "University of York",
         "role": "Research Fellow",
         "years": [2008, 2009],
@@ -67,7 +83,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "place": "York",
         "role" : "Freelance Statistician / Quantitative Analyst",
         "years": [2007, 2011],
@@ -77,7 +93,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "place" : "University of York",
         "role" : "PhD: Sociology & Human Geography",
         "years" : [2005, 2009],
@@ -88,7 +104,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "place" : "University of Nottingham",
         "role" : "MA Cultural Studies & Critical Theory",
         "years" : [2003, 2004],
@@ -97,7 +113,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 11,
         "place" : "University of Nottingham",
         "role" : "BEng (Hons) Electronic Engineering (2.1)",
         "years" : [1999, 2003],
@@ -106,7 +122,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 12,
         "place" : "John Port Sixth Form, Etwall, Derbyshire",
         "role" : "A levels: Mathematics (A), Physics (A), Business Studies (B), General Studies (B)",
         "years" : [1997, 1999],

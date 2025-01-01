@@ -7,6 +7,7 @@ import OldWebsiteImage from '../img/oldWebsiteSquare.png'
 import PythonHMDImage from '../img/pythonDashAppSquare.png'
 import RHMDImage from '../img/rShinyAppMortalitySquare.png'
 import BlogImage from '../img/jonBlog.png'
+import StatsImage from '../img/jonStats.png'
 
 const OtherApps = () => {
 
@@ -22,6 +23,13 @@ const OtherApps = () => {
                         Here's a short list of apps I've completed or am working on.
                     </p>
                 </article>
+                <AppProfile
+                    title = "Jon Minton's Statistics Website"
+                    mainText = {`
+                        I've written a lot of material on statistical inference and application within my blog. To make this statistics material, which constitutes a fairly detailed and technical course based around likelihood theory and generalised linear modelling, I've moved most of this material into a website in its own right, also made using Quarto.
+                    `}
+                    image = {StatsImage}
+                />
                 <AppProfile
                     title = "Jon Minton's Blog"
                     mainText = {`
