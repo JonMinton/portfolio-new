@@ -275,4 +275,4 @@ To test accessibility:
 
 - `react-markdown` in package.json but not used (can be removed with `npm uninstall react-markdown`)
 - No unit tests written (Jest/RTL setup exists)
-- About page (`/about`) is minimal - needs content
+- **Heroku zombie deployment**: There is a legacy Heroku app (`jon-minton-portfolio-site`) that attempts to auto-deploy on push and fails (Heroku-20 stack EOL). This is not connected via GitHub Integrations (only Netlify shows there). The Heroku account may be inaccessible. These failure emails can be ignored - Netlify is the primary deployment. To stop the emails, try contacting Heroku support to disconnect/delete the app.
