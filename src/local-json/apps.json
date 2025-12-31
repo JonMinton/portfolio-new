@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "GLM Dashboard Explainer",
+        "description": "An interactive tutorial dashboard for learning about Generalised Linear Models (GLMs). Built with Quarto, it provides hands-on exercises covering different GLM families including Gaussian, Binomial, Poisson, Negative Binomial, and Gamma distributions. The dashboard uses progressive disclosure to reveal model types after completing each tutorial.",
+        "image": "/images/glmDashboard.png",
+        "url": "https://jonminton.github.io/glm-dashboard-explainer/",
+        "github": "https://github.com/JonMinton/glm-dashboard-explainer",
+        "status": "alpha"
+    },
+    {
+        "id": 2,
+        "title": "Jon Minton's Statistics Website",
+        "description": "I've written a lot of material on statistical inference and application within my blog. To make this statistics material, which constitutes a fairly detailed and technical course based around likelihood theory and generalised linear modelling, I've moved most of this material into a website in its own right, also made using Quarto.",
+        "image": "/images/jonStats.png",
+        "url": "https://jonminton.github.io/JonStats/",
+        "github": "https://github.com/JonMinton/JonStats"
+    },
+    {
+        "id": 3,
+        "title": "Jon Minton's Blog",
+        "description": "This is my blog, produced using Quarto, and hosted on Github pages. I update it more often than this site, and it's a good place to find out what I'm currently working on.",
+        "image": "/images/jonBlog.png",
+        "url": null,
+        "github": null
+    },
+    {
+        "id": 4,
+        "title": "Jon Minton's Website",
+        "description": "Of course this website should probably mention itself. This is my attempt at creating a website with professional styling (or at least without outright contempt for CSS). I created this using React and React Router, and an ever expanding CSS file which I've tried to structure in BEM format. I've also tried to use semantic HTML tags where appropriate, rather than just divs. I have various plans for further features and improvements. If there's something you'd like to see, please get in touch!",
+        "image": "/images/newWebsiteSquare.png",
+        "url": "https://jonminton.net",
+        "github": "https://github.com/JonMinton/portfolio-new"
+    },
+    {
+        "id": 5,
+        "title": "Jon Minton's Old Website",
+        "description": "This was my previous effort. Also React, but a single page app without React Router. I somehow managed to make content sections collapsible, but was really flying blind at this point, without a solid grasp of CSS and broader design principles. I probably used too much beige too, and started going into too much detail about my cats. However, it's still available if someone wants to take a look!",
+        "image": "/images/oldWebsiteSquare.png",
+        "url": null,
+        "github": null
+    },
+    {
+        "id": 6,
+        "title": "Capstone Project: Population Structure Visualiser using Python and Dash",
+        "description": "This was my Codeclan capstone project. I wanted to see if I could do in Python, one of the languages taught in the course, something I'd previously done in R. This was to produce a dashboard that allows mortality and population data, from the Human Mortality Database, to be visualised as Lexis surfaces, 3D representations of the data, in which the age and period work like latitude and longitude and population size or mortality risk is represented as elevation. As before, I wanted these 3D maps to be interactive, such that clicking on part of the surface started a 'grand tour', showing the age, period and cohort slices through the same data. However, unlike the R Shiny app, I wanted to give slightly more consideration to design and style. (Though not a great deal). Whereas the first app was built in Shiny, this used the Dash framework (both ultimately route to Plotly, written in Javascript). I made somewhat more use of Bootstrap for styling the CSS, though wish I knew then what I knew now about good design practice. The app still hasn't been deployed, and some of the features from the Shiny app haven't been introduced to the Python version. However I hope to return to this project once I've learned and achieved enough with the Javascript ecosystem/'Reactiverse' to feel that knowledge has become sufficiently embedded.",
+        "image": "/images/pythonDashAppSquare.png",
+        "url": null,
+        "github": null
+    },
+    {
+        "id": 7,
+        "title": "R-Shiny Mortality Structure Explorer",
+        "description": "This is the app I made in R which I attempted to replicate using Python and Dash. It has more functionality, but the code's a mess I wrote in a two week fugue state before my current job, and the design is a lot more bare-bones. In less than two weeks I was able to demonstrate proof of principle for an approach to visualising complex demographic data which I'd spent the last few years in academic trying to get funding for, and so I was fairly happy with this. In fact in slightly over two weeks I produced two more apps using the same approach, one applied to fertility, and the other to housing data. Unfortunately this particular coding journey was halted by jury service, then the new job, and the code was written in such a disorganisational manner I wasn't able to get back to the headspace needed to further develop it.",
+        "image": "/images/rShinyAppMortalitySquare.png",
+        "url": "https://datascapes.shinyapps.io/hmd_explorer/",
+        "github": "https://github.com/JonMinton/hmd_explorer"
+    }
+]

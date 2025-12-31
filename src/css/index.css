@@ -655,6 +655,38 @@ h2 {
   color: var(--COLOR-MAIN-TEXT);
 }
 
+.appProfile__status {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: var(--COLOR-HIGHLIGHT);
+  color: var(--COLOR-HEADFOOT-BG);
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.appProfile__github {
+  margin-left: 0.5rem;
+  color: var(--COLOR-MAIN-TEXT);
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.appProfile__github:hover {
+  color: var(--COLOR-HIGHLIGHT);
+}
+
+.appProfile__img--clickable {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.appProfile__img--clickable:hover {
+  opacity: 0.8;
+}
 
 
 /* || BANNER */
