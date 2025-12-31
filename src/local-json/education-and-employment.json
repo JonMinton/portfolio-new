@@ -3,7 +3,7 @@
         "id": 1,
         "place": "Smith & Nephew",
         "role": "Senior Statistician",
-        "years": [2024, 2025],
+        "years": [2024, null],
         "activities": 
             [
                 "Working as Senior Statistician in the Global Data Analytics division",

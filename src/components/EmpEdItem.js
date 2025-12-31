@@ -12,9 +12,9 @@ const EmpEdItem = (
     <li className="history__li">
       <p className="history__subhead">
         <strong>
-            {years[0]} 
-            &nbsp;to&nbsp; 
-            {years[1]}
+            {years[0]}
+            &nbsp;to&nbsp;
+            {years[1] ?? 'present'}
           </strong>: {role} at {place}.
         </p>
           <ul>
