@@ -1,5 +1,9 @@
 # Portfolio Website - Project Documentation
 
+## Pending Tasks (Remind User)
+
+- [ ] Add screenshot `glmDashboard.png` to `public/images/` for the GLM Dashboard Explainer app (currently shows placeholder)
+
 ## Overview
 
 A personal portfolio website for Jon Minton, a statistician/data scientist. Built with React to showcase professional background, publications, and projects.
@@ -39,17 +43,19 @@ portfolio-new/
 │   │   ├── Outputs.js      # Publications list
 │   │   ├── OtherApps.js    # Portfolio of projects
 │   │   ├── Contact.js      # Contact information
-│   │   ├── About.js        # About page (route commented out)
+│   │   ├── About.js        # About page
 │   │   └── Whoops404.js    # 404 error page
 │   ├── css/                # Stylesheets
 │   │   └── index.css       # Main styles (CSS variables, BEM)
 │   ├── local-json/         # Data files
 │   │   ├── publications.json
-│   │   └── education-and-employment.json
-│   ├── img/                # Image assets
+│   │   ├── education-and-employment.json
+│   │   └── apps.json
+│   ├── img/                # Image assets (hero backgrounds)
 │   ├── App.js              # Root component with routing
 │   └── index.js            # React entry point
-├── public/                 # Static assets
+├── public/
+│   └── images/             # App screenshots (referenced by apps.json)
 ├── build/                  # Production build output
 └── package.json
 ```
@@ -65,7 +71,7 @@ portfolio-new/
 | `/contact` | `<Contact>` | Contact information |
 | `*` | `<Whoops404>` | 404 error page |
 
-Note: `/about` route is now active but the page needs content
+Note: `/about` route is active with content about CodeClan E63 and Claude collaboration
 
 ## Data Management
 
@@ -77,7 +83,11 @@ Array of publication objects with fields:
 
 ### education-and-employment.json
 Array of career entries with fields:
-- `id`, `place`, `role`, `years` (array of [startYear, endYear]), `activities` (array of strings)
+- `id`, `place`, `role`, `years` (array of [startYear, endYear or null for ongoing]), `activities` (array of strings)
+
+### apps.json
+Array of app/project entries with fields:
+- `id`, `title`, `description`, `image` (path in public/images/), `url` (live app or null), `github` (repo URL or null), `status` (optional, e.g. "alpha")
 
 ## Styling
 
@@ -141,7 +151,19 @@ Add object to `src/local-json/education-and-employment.json`:
 ```
 
 ### New Project Card
-Add `<AppProfile>` component in `src/pages/OtherApps.js`
+Add object to `src/local-json/apps.json`:
+```json
+{
+  "id": 8,
+  "title": "App Name",
+  "description": "Description of the app",
+  "image": "/images/screenshot.png",
+  "url": "https://live-app-url.com",
+  "github": "https://github.com/user/repo",
+  "status": "alpha"
+}
+```
+Also add the screenshot image to `public/images/`.
 
 ### New Page
 1. Create component in `src/pages/`

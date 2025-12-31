@@ -21,8 +21,8 @@
         "title": "Jon Minton's Blog",
         "description": "This is my blog, produced using Quarto, and hosted on Github pages. I update it more often than this site, and it's a good place to find out what I'm currently working on.",
         "image": "/images/jonBlog.png",
-        "url": null,
-        "github": null
+        "url": "https://jonminton.github.io/jon-blog/",
+        "github": "https://github.com/JonMinton/jon-blog"
     },
     {
         "id": 4,
