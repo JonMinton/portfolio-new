@@ -65,7 +65,7 @@ portfolio-new/
 | `/contact` | `<Contact>` | Contact information |
 | `*` | `<Whoops404>` | 404 error page |
 
-Note: `/about` route exists but is commented out in App.js
+Note: `/about` route is now active but the page needs content
 
 ## Data Management
 
@@ -244,10 +244,35 @@ If using subdomains, you'll need access to DNS settings for jonminton.net. Typic
 - `CNAME` record: `dash` → `your-app.onrender.com`
 - `CNAME` record: `shiny` → `your-app.shinyapps.io`
 
+## Accessibility
+
+The site uses semantic HTML (`<article>`, `<nav>`, `<header>`, `<footer>`, `<main>`) which provides a good foundation.
+
+### Current Features
+- Skip link for keyboard navigation (bypasses header to main content)
+- `aria-label` attributes on icon-only links
+- Semantic HTML structure throughout
+
+### Testing & Compliance
+To test accessibility:
+1. **Keyboard navigation**: Tab through the site, ensure all interactive elements are reachable
+2. **Screen reader**: Test with VoiceOver (Mac) or NVDA (Windows)
+3. **Contrast**: Use browser dev tools or axe DevTools extension
+4. **Automated testing**: Run `npx axe-cli https://jonminton.net`
+
+### WCAG Guidelines Reference
+- **Perceivable**: Alt text on images, sufficient color contrast
+- **Operable**: Keyboard accessible, skip links, no time limits
+- **Understandable**: Consistent navigation, clear labels
+- **Robust**: Valid HTML, ARIA used correctly
+
+### Future Improvements
+- Add focus visible styles (`:focus-visible`) for better keyboard navigation visibility
+- Consider reduced motion preferences (`prefers-reduced-motion`)
+- Add `aria-current="page"` to active navigation items
+
 ## Known Issues / TODOs
 
-- About page exists but route is commented out
-- Unused components: `Column.js`, `Position.js`, `Float.js` (CSS demos)
-- `react-markdown` imported but not used
+- `react-markdown` in package.json but not used (can be removed with `npm uninstall react-markdown`)
 - No unit tests written (Jest/RTL setup exists)
-- No `netlify.toml` file (build config only in Netlify dashboard)
+- About page (`/about`) is minimal - needs content

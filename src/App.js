@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-// import About from "./pages/About";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Whoops404 from "./pages/Whoops404";
 import EmpEd from "./pages/EmpEd";
@@ -40,6 +40,7 @@ function App() {
         <Route path="/outputs" element={<Outputs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/apps" element={<OtherApps />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Whoops404 />} />
       </Routes>
       <Footer />

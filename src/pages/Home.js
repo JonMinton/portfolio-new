@@ -12,8 +12,9 @@ const Home = ( { firstView }) => {
         <BigHero 
           firstView={firstView} 
         />
-        <main 
-          className="main"       
+        <main
+          id="main-content"
+          className="main"
         >
         <article 
           className="main__article"

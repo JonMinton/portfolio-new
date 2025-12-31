@@ -14,7 +14,7 @@ const OtherApps = () => {
     return (
         <>
             <Hero title = "Apps"/>
-            <main className="main">
+            <main id="main-content" className="main">
                 <article className="main__article">
                     <h2 className="main__h2">
                         Apps

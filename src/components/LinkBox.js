@@ -6,7 +6,7 @@ import {faLinkedinIn, faGithub, faTwitter, faWhatsapp} from '@fortawesome/free-b
 // import './LinkBox.css';
 
 
-const LinkBox = ({ url, icon }) => {
+const LinkBox = ({ url, icon, label }) => {
 
   const getIcon = (icon) => {
     switch (icon) {
@@ -31,12 +31,13 @@ const LinkBox = ({ url, icon }) => {
 
   return (
     <>
-      <a 
-          href={url} 
+      <a
+          href={url}
           rel="noreferrer"
-          target = "_blank"
+          target="_blank"
+          aria-label={label}
       >
-        <FontAwesomeIcon icon={getIcon(icon)}  />
+        <FontAwesomeIcon icon={getIcon(icon)} aria-hidden="true" />
       </a>
     </>
   );

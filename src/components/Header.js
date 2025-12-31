@@ -4,6 +4,7 @@ import LinkBox from "./LinkBox";
 const Header = ( { title } ) => {
   return (
     <header className="header">
+        <a href="#main-content" className="skip-link">Skip to main content</a>
         <div className="header__top">
           <h1 className="header__h1">{title}</h1>
           <div className="header__contacts">

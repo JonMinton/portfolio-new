@@ -21,7 +21,7 @@ const EmpEd = () => {
     return (
         <>
             <Hero title = "History"/>
-            <main className="main">
+            <main id="main-content" className="main">
                 <article className="main__article">
                     <h2 className="main__h2">
                         Employment and Education

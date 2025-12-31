@@ -21,7 +21,7 @@ const Outputs = () => {
   return (
     <> 
         <Hero title="Outputs" />
-        <main className="main">
+        <main id="main-content" className="main">
             <article className="main__article">
                 <h2 className="main__h2">Outputs</h2>
                 <p className="main__p">Here are some places where I've attempted to make dents in the world</p>

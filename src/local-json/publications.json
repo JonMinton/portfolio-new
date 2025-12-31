@@ -1,11 +1,19 @@
 [
     {
+        "id": 21,
+        "authors" : "Hiam, Minton, Burns, McKee, Aldridge",
+        "title" : "To what extent did mortality from COVID-19 in England and Wales differ for migrants compared to non-migrants in 2020 and 2021? A descriptive, observational study",
+        "year" : 2024,
+        "journal" : "European Journal of Public Health",
+        "url" : "https://academic.oup.com/eurpub/article/34/6/1149/7824358"
+    },
+    {
         "id": 20,
-        "authors" : "Hiam, Estrin-Serlui, McKee, Dorling, Minton",
+        "authors" : "Hiam, Estrin-Serlui, Dorling, McKee, Minton",
         "title" : "A deathly silence: why has the number of people found decomposed in England and Wales been rising?",
-        "year" : 2023,
+        "year" : 2024,
         "journal" : "Journal of the Royal Society of Medicine",
-        "url" : "https://pubmed.ncbi.nlm.nih.gov/37989250/"
+        "url" : "https://journals.sagepub.com/doi/10.1177/01410768231209001"
     },
     {
         "id": 17,
