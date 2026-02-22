@@ -25,10 +25,10 @@ function App() {
 
 
   useEffect(() => {
-    // set 5 second delay
+    // set 6 second delay
     setTimeout(() => {
       setFirstView(false);
-    }, 5000);
+    }, 6000);
   }, [])
 
 

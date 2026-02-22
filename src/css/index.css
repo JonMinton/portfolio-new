@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Open+Sans&family=Pacifico&family=Pixelify+Sans&family=Play&family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Open+Sans&family=Orbitron&family=Pacifico&family=Pixelify+Sans&family=Play&family=Quantico&display=swap');
 
 /* || RESETS */
 
@@ -120,30 +120,38 @@ textarea {
   font-family: 'Quantico', sans-serif;
 }
 
+.agentic-ai {
+  font-family: 'Orbitron', sans-serif;
+}
+
 .textDelay_1s {
-  animation: textDelay1s 5.0s ease-in-out;
+  animation: textDelay1s 6.0s ease-in-out;
 }
 
 .textDelay_2s {
-  animation: textDelay2s 5.0s ease-in-out;
+  animation: textDelay2s 6.0s ease-in-out;
 }
 
 .textDelay_3s {
-  animation: textDelay3s 5.0s ease-in-out;
+  animation: textDelay3s 6.0s ease-in-out;
 }
 
 .textDelay_4s {
-  animation: textDelay4s 5.0s ease-in-out;  
+  animation: textDelay4s 6.0s ease-in-out;
+}
+
+.textDelay_5s {
+  animation: textDelay5s 6.0s ease-in-out;
 }
 
 @keyframes textDelay1s {
   0% {
     opacity: 0;
   }
-  20% {
+  17% {
     opacity: 0;
   }
-  25% {
+  22% {
     opacity: 1;
   }
   100% {
@@ -156,10 +164,10 @@ textarea {
   0% {
     opacity: 0;
   }
-  40% {
+  33% {
     opacity: 0;
   }
-  45% {
+  38% {
     opacity: 1;
   }
   100% {
@@ -171,10 +179,10 @@ textarea {
   0% {
     opacity: 0;
   }
-  60% {
+  50% {
     opacity: 0;
   }
-  65% {
+  55% {
     opacity: 1;
   }
   100% {
@@ -186,10 +194,25 @@ textarea {
   0% {
     opacity: 0;
   }
-  80% {
+  67% {
     opacity: 0;
   }
-  85% {
+  72% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textDelay5s {
+  0% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  88% {
     opacity: 1;
   }
   100% {

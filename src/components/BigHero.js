@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 import background from '../img/pexels-pixabay-268533.jpg'
 
@@ -38,8 +38,11 @@ const BigHero = (
                 <a 
                   className={"bigHero__link bigHero__child data-science".concat(firstView ? " textDelay_3s" : "")} href="#data-science">Data Science</a></li>
               <li>
-                <a 
+                <a
                   className={"bigHero__link bigHero__child software".concat(firstView ? " textDelay_4s" : "")} href="#software-development">Software Development</a></li>
+              <li>
+                <Link
+                  className={"bigHero__link bigHero__child agentic-ai".concat(firstView ? " textDelay_5s" : "")} to="/agentic-ai">Agentic AI</Link></li>
             </ul>
           </nav>
         </div>
