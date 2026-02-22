@@ -12,6 +12,7 @@ const Nav = () => {
         <li><Link className="header__link" to='/history'>History</Link></li>
         <li><Link className="header__link" to='/outputs'>Outputs</Link></li>
         <li><Link className="header__link" to='/apps'>Apps</Link></li>
+        <li><Link className="header__link" to='/agentic-ai'>Agentic AI</Link></li>
         <li><Link className="header__link" to='/about'>About</Link></li>
         <li><Link className="header__link" to='/contact'>Contact</Link></li>
       </ul>

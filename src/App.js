@@ -12,6 +12,7 @@ import Whoops404 from "./pages/Whoops404";
 import EmpEd from "./pages/EmpEd";
 import Outputs from "./pages/Outputs";
 import OtherApps from "./pages/OtherApps";
+import AgenticAI from "./pages/AgenticAI";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/outputs" element={<Outputs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/apps" element={<OtherApps />} />
+        <Route path="/agentic-ai" element={<AgenticAI />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Whoops404 />} />
       </Routes>
