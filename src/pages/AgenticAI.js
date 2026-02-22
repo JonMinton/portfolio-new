@@ -67,7 +67,9 @@ const AgenticAI = () => {
           <p className="main__p">
             I had a hunch that Claude, which uses markdown files for 'memory' (persistence of
             behaviour across sessions and agents, planning within sessions), would probably play
-            well with Obsidian, which uses its own particular flavour of markdown files to build
+            well with{' '}
+            <a className="main__link" href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">Obsidian</a>,
+            which uses its own particular flavour of markdown files to build
             knowledge networks, allowing users to populate pages of concepts and ideas with links
             to other pages of concepts and ideas. For someone as galaxy-brained as myself,
             preferring to see and find webs of associations to long linear tracts, I had high hopes
