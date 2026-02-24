@@ -4,12 +4,11 @@ import background from '../img/pexels-pixabay-268533.jpg'
 
 
 const BigHero = (
-  { firstView }
-    // { title, sideText, bgImage, images }
+  { firstView, bgImage }
 ) => {
 
   let imageStyle = {
-    backgroundImage: `url(${background})`,
+    backgroundImage: `url(${bgImage || background})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }

@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 const AgenticAI = () => {
   return (
     <>
-      <Hero title="Agentic AI" />
+      <Hero title="Agentic AI" bgImage="/images/hero-react-neon.png" />
       <main id="main-content" className="main">
         <article className="main__article">
           <p className="main__p">

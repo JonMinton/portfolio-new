@@ -9,8 +9,9 @@ const Home = ( { firstView }) => {
 
   return (
     <>
-        <BigHero 
-          firstView={firstView} 
+        <BigHero
+          firstView={firstView}
+          bgImage="/images/hero-notebook-code.png"
         />
         <main
           id="main-content"

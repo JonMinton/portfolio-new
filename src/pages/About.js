@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 const About = () => {
   return (
     <>
-      <Hero title="About" />
+      <Hero title="About" bgImage="/images/hero-workstation.png" />
       <main id="main-content" className="main">
         <article className="main__article">
           <h2 className="main__h2">About This Website</h2>
@@ -19,7 +19,7 @@ const About = () => {
             and keeping content up to date.
           </p>
           <p className="main__p">
-            The source code is available on GitHub for anyone interested in how it's built.
+            The source code is available on <a className="main__link" href="https://github.com/JonMinton/portfolio-new" target="_blank" rel="noopener noreferrer">GitHub</a> for anyone interested in how it's built.
           </p>
         </article>
       </main>

@@ -1,12 +1,11 @@
 import background from '../img/pexels-pixabay-268533.jpg'
 
 const Hero = (
-    { title }
-    // { title, sideText, bgImage, images }
+    { title, bgImage }
 ) => {
 
   let imageStyle = {
-    backgroundImage: `url(${background})`,
+    backgroundImage: `url(${bgImage || background})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }

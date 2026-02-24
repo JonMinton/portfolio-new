@@ -22,7 +22,7 @@ const OtherApps = () => {
 
     return (
         <>
-            <Hero title = "Apps"/>
+            <Hero title = "Apps" bgImage="/images/hero-react-neon.png" />
             <main id="main-content" className="main">
                 <article className="main__article">
                     <h2 className="main__h2">
