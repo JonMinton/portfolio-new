@@ -8,7 +8,9 @@
 
 A personal portfolio website for Jon Minton, a statistician/data scientist. Built with React to showcase professional background, publications, and projects.
 
-**Live site:** https://jonminton.net
+**Live site:** https://portfolio.jonminton.net
+
+**Site family (since 2026-07-14):** the apex `jonminton.net` is a separate tiny static hub/directory site (source in `hub/` in this repo, deployed as the `jonminton-hub` Netlify site via API zip deploy — no CI; redeploy by re-zipping `hub/` and POSTing to the Netlify deploys API). The hub routes to `blog.jonminton.net` (jon-blog repo), `stats.jonminton.net` (JonStats repo), this portfolio, and LinkedIn, and carries 301 redirects for the portfolio's old apex routes (`/apps`, `/history`, etc.). Do not delete `hub/_redirects` — old inbound links depend on it.
 
 ## Tech Stack
 

@@ -29,7 +29,7 @@
         "title": "Jon Minton's Website",
         "description": "Of course this website should probably mention itself. This is my attempt at creating a website with professional styling (or at least without outright contempt for CSS). I created this using React and React Router, and an ever expanding CSS file which I've tried to structure in BEM format. I've also tried to use semantic HTML tags where appropriate, rather than just divs. I have various plans for further features and improvements. If there's something you'd like to see, please get in touch!",
         "image": "/images/newWebsiteSquare.png",
-        "url": "https://jonminton.net",
+        "url": "https://portfolio.jonminton.net",
         "github": "https://github.com/JonMinton/portfolio-new"
     },
     {
