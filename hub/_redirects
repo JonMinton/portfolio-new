@@ -1,0 +1,9 @@
+# The React portfolio previously lived at the apex. Its routes 301 to
+# portfolio.jonminton.net so old inbound links and search results keep working.
+/history      https://portfolio.jonminton.net/history      301
+/outputs      https://portfolio.jonminton.net/outputs      301
+/apps         https://portfolio.jonminton.net/apps         301
+/contact      https://portfolio.jonminton.net/contact      301
+/about        https://portfolio.jonminton.net/about        301
+/agentic-ai   https://portfolio.jonminton.net/agentic-ai   301
+/images/*     https://portfolio.jonminton.net/images/:splat 301

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jon Minton</title>
+<meta name="description" content="Jon Minton — statistician, data scientist, and software developer. Directory of my sites: blog, statistics course, portfolio, and how to get in touch.">
+<link rel="canonical" href="https://jonminton.net/">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:title" content="Jon Minton">
+<meta property="og:description" content="Statistician, data scientist, and software developer. Blog, statistics course, portfolio, and contact routes.">
+<meta property="og:url" content="https://jonminton.net/">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg-top: hsl(60, 15%, 25%);
+    --bg-bottom: hsl(0, 15%, 27%);
+    --card-bg: rgba(0, 0, 0, 0.35);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --text: hsl(0, 0%, 90%);
+    --text-dim: hsl(0, 0%, 68%);
+    --accent: #5288a1;
+    --accent-bright: hsl(199, 50%, 65%);
+    --url-color: hsl(199, 35%, 72%);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg-top: hsl(60, 20%, 94%);
+      --bg-bottom: hsl(0, 20%, 92%);
+      --card-bg: rgba(255, 255, 255, 0.65);
+      --card-border: rgba(0, 0, 0, 0.12);
+      --text: hsl(0, 0%, 15%);
+      --text-dim: hsl(0, 0%, 38%);
+      --accent: #2a5a75;
+      --accent-bright: hsl(199, 60%, 32%);
+      --url-color: hsl(199, 55%, 30%);
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(var(--bg-top), var(--bg-bottom)) fixed;
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    line-height: 1.55;
+    display: flex;
+    justify-content: center;
+    padding: clamp(1.5rem, 5vh, 4rem) 1.25rem;
+  }
+  main { width: 100%; max-width: 40rem; }
+  h1 {
+    font-size: clamp(2rem, 6vw, 2.75rem);
+    letter-spacing: 0.01em;
+  }
+  .tagline {
+    color: var(--accent-bright);
+    font-size: 1.05rem;
+    margin: 0.25rem 0 1.25rem;
+  }
+  .bio {
+    color: var(--text-dim);
+    font-size: 0.98rem;
+    margin-bottom: 2rem;
+    max-width: 38rem;
+  }
+  nav ul { list-style: none; display: grid; gap: 0.9rem; }
+  .card {
+    display: block;
+    padding: 1rem 1.15rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 4px solid var(--accent);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 120ms ease, border-color 120ms ease;
+  }
+  .card:hover, .card:focus-visible {
+    transform: translateX(4px);
+    border-left-color: var(--accent-bright);
+  }
+  .card:focus-visible { outline: 2px solid var(--accent-bright); outline-offset: 2px; }
+  .card h2 { font-size: 1.15rem; }
+  .card p { color: var(--text-dim); font-size: 0.92rem; margin: 0.15rem 0 0.35rem; }
+  .card .url {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.82rem;
+    color: var(--url-color);
+  }
+  footer {
+    margin-top: 2.25rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+  footer a { color: var(--accent-bright); }
+  /* Staggered reveal, echoing the portfolio's intro animation */
+  @media (prefers-reduced-motion: no-preference) {
+    .fade { opacity: 0; animation: fadeIn 500ms ease forwards; }
+    .fade:nth-child(1) { animation-delay: 100ms; }
+    .fade:nth-child(2) { animation-delay: 250ms; }
+    .fade:nth-child(3) { animation-delay: 400ms; }
+    .fade:nth-child(4) { animation-delay: 550ms; }
+    @keyframes fadeIn { to { opacity: 1; } }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jon Minton</h1>
+  <p class="tagline">Statistician &middot; Data Scientist &middot; Software Developer</p>
+  <p class="bio">
+    Hello — I'm Jon. I'm a senior statistician at the medical devices firm Smith &amp; Nephew,
+    a well-published and collaborative researcher specialising in epidemiology, risk, and
+    demographic structure, and a full-stack software developer. Most of what I make and write
+    lives on one of the sites below.
+  </p>
+  <nav aria-label="Jon's sites">
+    <ul>
+      <li class="fade">
+        <a class="card" href="https://blog.jonminton.net/">
+          <h2>Blog</h2>
+          <p>Essays and analysis — statistics, data science, AI, and the occasional unpopular opinion. Updated often.</p>
+          <span class="url">blog.jonminton.net</span>
+        </a>
+      </li>
+      <li class="fade">
+        <a class="card" href="https://stats.jonminton.net/">
+          <h2>Statistics course</h2>
+          <p>A structured course on statistical inference, likelihood theory, and generalised linear models.</p>
+          <span class="url">stats.jonminton.net</span>
+        </a>
+      </li>
+      <li class="fade">
+        <a class="card" href="https://portfolio.jonminton.net/">
+          <h2>Portfolio</h2>
+          <p>Career history, publications, software projects, and how to get in touch.</p>
+          <span class="url">portfolio.jonminton.net</span>
+        </a>
+      </li>
+      <li class="fade">
+        <a class="card" href="https://uk.linkedin.com/in/jon-minton-09480b13a" rel="me">
+          <h2>Connect on LinkedIn</h2>
+          <p>For professional connections and opportunities.</p>
+          <span class="url">linkedin.com/in/jon-minton-09480b13a</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <footer>
+    Code and data at <a href="https://github.com/JonMinton" rel="me">github.com/JonMinton</a>.
+  </footer>
+</main>
+</body>
+</html>
