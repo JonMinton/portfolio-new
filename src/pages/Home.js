@@ -32,10 +32,10 @@ const Home = ( { firstView }) => {
         <article className="main__article">
           <h2 className="main__h2">My Blog and Statistics Website</h2>
           <p className="main__p">
-            Please consider visiting <a className="main__link" href="https://jonminton.github.io/jon-blog/">my blog</a>, produced using Quarto, and hosted on Github pages, as I update it more often than this site!
+            Please consider visiting <a className="main__link" href="https://blog.jonminton.net/">my blog</a>, produced using Quarto, and hosted on Github pages, as I update it more often than this site!
           </p>
           <p className="main__p">
-            If you are primarily interested in my statistical work, please visit <a className="main__link" href="https://jonminton.github.io/JonStats/">my statistics website</a>, which is also produced using Quarto and hosted on Github pages.
+            If you are primarily interested in my statistical work, please visit <a className="main__link" href="https://stats.jonminton.net/">my statistics website</a>, which is also produced using Quarto and hosted on Github pages.
           </p>
         </article>
         <article className="main__article" id="statistics">

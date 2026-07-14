@@ -13,7 +13,7 @@
         "title": "Jon Minton's Statistics Website",
         "description": "I've written a lot of material on statistical inference and application within my blog. To make this statistics material, which constitutes a fairly detailed and technical course based around likelihood theory and generalised linear modelling, I've moved most of this material into a website in its own right, also made using Quarto.",
         "image": "/images/jonStats.png",
-        "url": "https://jonminton.github.io/JonStats/",
+        "url": "https://stats.jonminton.net/",
         "github": "https://github.com/JonMinton/JonStats"
     },
     {
@@ -21,7 +21,7 @@
         "title": "Jon Minton's Blog",
         "description": "This is my blog, produced using Quarto, and hosted on Github pages. I update it more often than this site, and it's a good place to find out what I'm currently working on.",
         "image": "/images/jonBlog.png",
-        "url": "https://jonminton.github.io/jon-blog/",
+        "url": "https://blog.jonminton.net/",
         "github": "https://github.com/JonMinton/jon-blog"
     },
     {

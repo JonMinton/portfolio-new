@@ -22,14 +22,14 @@ const AgenticAI = () => {
           <p className="main__p">
             Watching the documentary <em>The Thinking Game</em>, and then trying
             out Claude Code, led me to write{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/unpop/the-man-who-solved-intelligence/" target="_blank" rel="noopener noreferrer">this post</a>,{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/the-dialectical-engine/" target="_blank" rel="noopener noreferrer">this post</a>, and{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/analytical-maxim-gun/" target="_blank" rel="noopener noreferrer">this post</a>.
+            <a className="main__link" href="https://blog.jonminton.net/posts/unpop/the-man-who-solved-intelligence/" target="_blank" rel="noopener noreferrer">this post</a>,{' '}
+            <a className="main__link" href="https://blog.jonminton.net/posts/the-dialectical-engine/" target="_blank" rel="noopener noreferrer">this post</a>, and{' '}
+            <a className="main__link" href="https://blog.jonminton.net/posts/analytical-maxim-gun/" target="_blank" rel="noopener noreferrer">this post</a>.
             The initial sense of near apocalyptic urgency I had became metered to some
             extent, leading to{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/2025-last-human-majority-knowledge-worker/" target="_blank" rel="noopener noreferrer">this more philosophical, circumspect, and hopeful post</a>{' '}
+            <a className="main__link" href="https://blog.jonminton.net/posts/2025-last-human-majority-knowledge-worker/" target="_blank" rel="noopener noreferrer">this more philosophical, circumspect, and hopeful post</a>{' '}
             at the end of 2025. I've also{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/on-writing/how-i-write-now/" target="_blank" rel="noopener noreferrer">blogged about how I used agentic AI</a>,
+            <a className="main__link" href="https://blog.jonminton.net/posts/on-writing/how-i-write-now/" target="_blank" rel="noopener noreferrer">blogged about how I used agentic AI</a>,
             along with a ReMarkable Pro with folio cover (providing a keyboard), to smooth and
             simplify many of the steps involved in producing and refining blog posts.
           </p>
@@ -37,14 +37,14 @@ const AgenticAI = () => {
           <h3 className="history__subhead">Teaching Aids</h3>
           <p className="main__p">
             I had some success with using Claude to first produce a{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/handdrawn-stats/version-control-as-rock-climbing/" target="_blank" rel="noopener noreferrer">graphical guide to version control</a>.
+            <a className="main__link" href="https://blog.jonminton.net/posts/handdrawn-stats/version-control-as-rock-climbing/" target="_blank" rel="noopener noreferrer">graphical guide to version control</a>.
             I then used it to produce some{' '}
-            <a className="main__link" href="https://jonminton.github.io/jon-blog/posts/handdrawn-stats/claude-stat-concept-guides/" target="_blank" rel="noopener noreferrer">animated guides</a>{' '}
+            <a className="main__link" href="https://blog.jonminton.net/posts/handdrawn-stats/claude-stat-concept-guides/" target="_blank" rel="noopener noreferrer">animated guides</a>{' '}
             to a couple of important concepts in statistical inference.
             Finally, using proper agentic AI (Claude Code and Claude Cowork), I co-produced a{' '}
             <a className="main__link" href="https://jonminton.github.io/glm-dashboard-explainer/" target="_blank" rel="noopener noreferrer">website for helping to understand generalised linear models</a>,
             with many interactive features, which aims to complement my existing{' '}
-            <a className="main__link" href="https://jonminton.github.io/JonStats/" target="_blank" rel="noopener noreferrer">statistics website</a>.
+            <a className="main__link" href="https://stats.jonminton.net/" target="_blank" rel="noopener noreferrer">statistics website</a>.
             I also co-produced a{' '}
             <a className="main__link" href="https://jonminton.github.io/working-with-ai-course/" target="_blank" rel="noopener noreferrer">website offering guidance on how Agentic AI can be used for multiple forms of knowledge work</a>.
           </p>
